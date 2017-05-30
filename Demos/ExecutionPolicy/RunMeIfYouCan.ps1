@@ -1,1 +1,1 @@
-Write-Host "There is no right or wrong. There's only fun and boring."
+Write-Host "There is no right and wrong. There's only fun and boring."
