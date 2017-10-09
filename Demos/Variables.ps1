@@ -24,6 +24,7 @@ Test-Path -Path Variable:TestVar4
 
 ## Other ways to make variables. Not normal but it works.
 ${Test Var 8}=100
+Write-Host ${Test Var 8}
 
 ## Constant / Read Only Variable
 $TestVar9 = 'Machine'
